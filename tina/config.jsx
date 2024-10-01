@@ -59,10 +59,55 @@ const PostCollection = {
   fields: [
     {
       type: "string",
+      label: "Slug",
+      name: "slug",
+      required: true,
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
       isTitle: true,
       required: true,
+    },
+    {
+      type: "string",
+      label: "Summary",
+      name: "summary",
+      required: true,
+    },
+    {
+      type: 'image',
+      label: 'Thumbnail',
+      name: 'thumbnail',
+    },
+    {
+      type: "string",
+      name: "site",
+      label: "Site",
+      required: true,
+      options: [
+        {
+          label: "carbonInsight",
+          value: "carbonInsight",
+        },
+      ]
+    },
+    {
+      type: "string",
+      name: "category",
+      label: "Category",
+      required: true,
+      options: [
+        {
+          label: "CBAM",
+          value: "cbam",
+        },
+        {
+          label: "Scope",
+          value: "scope"
+        }
+      ]
     },
     {
       name: "authors",
@@ -806,6 +851,18 @@ const PagesCollection = {
       label: "Title",
       isTitle: true,
       required: true,
+    },
+    {
+      type: "string",
+      name: "site",
+      label: "Site",
+      required: true,
+      options: [
+        {
+          label: "carbonInsight",
+          value: "carbonInsight",
+        },
+      ]
     },
     {
       type: "string",
