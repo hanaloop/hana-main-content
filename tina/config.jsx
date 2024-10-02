@@ -72,6 +72,11 @@ const PostCollection = {
     },
     {
       type: "string",
+      label: "Description",
+      name: "description",
+    },
+    {
+      type: "string",
       label: "Summary",
       name: "summary",
       required: true,
