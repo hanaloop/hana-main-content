@@ -111,6 +111,22 @@ const PostCollection = {
         {
           label: "Scope",
           value: "scope"
+        },
+        {
+          label: "IFRS",
+          value: "ifrs"
+        },
+        {
+          label: "TCFD",
+          value: "tcfd"
+        },
+        {
+          label: "GRI",
+          value: "gri"
+        },
+        {
+          label: "CDP",
+          value: "cdp"
         }
       ]
     },
