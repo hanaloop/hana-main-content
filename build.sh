@@ -2,5 +2,5 @@
 #!/bin/sh
 cd ../
 mkdir output
-cp -R ./hanaloop/* ./output
-cp -R ./output ./hanaloop/
+cp -R ./hana-main-content/* ./output
+cp -R ./output ./hana-main-content/
