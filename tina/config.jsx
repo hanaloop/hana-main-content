@@ -106,27 +106,27 @@ const PostCollection = {
       options: [
         {
           label: "CBAM",
-          value: "cbam",
+          value: "CBAM",
         },
         {
-          label: "Scope",
-          value: "scope"
+          label: "SCOPE 3",
+          value: "SCOPE 3"
         },
         {
           label: "IFRS",
-          value: "ifrs"
+          value: "IFRS"
         },
         {
           label: "TCFD",
-          value: "tcfd"
+          value: "TCFD"
         },
         {
           label: "GRI",
-          value: "gri"
+          value: "GRI"
         },
         {
           label: "CDP",
-          value: "cdp"
+          value: "CDP"
         }
       ]
     },
